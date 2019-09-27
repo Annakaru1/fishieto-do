@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require paloma
 //= require activestorage
 //= require_tree .
