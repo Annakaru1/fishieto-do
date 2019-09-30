@@ -1,4 +1,10 @@
 class TasksController < ApplicationController
+
+  def new
+    # no special method to call
+    @task = Task.new
+  end
+
   def index
     render json: Task.order(:id)
   end
